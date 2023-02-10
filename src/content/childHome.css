@@ -1,0 +1,28 @@
+
+.image_each{
+    width: 32%;
+    max-height: 200px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.bookmark{
+    position: absolute;
+    top: -30px;
+    /* left: 0; */
+    /* bottom:0; */
+    left:20%;
+    margin: auto;
+    width: 200px;
+    /* height: 30px; */
+
+    background-color: rgb(223, 141, 90);
+    text-align: center;
+    padding: 10px;
+
+   
+    z-index: 2;
+}
+.bookmark:active{
+    background-color: rgb(220, 117, 53);
+}

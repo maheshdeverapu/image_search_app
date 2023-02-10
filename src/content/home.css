@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(225, 225, 225);
+}
+.image_content{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(225, 225, 225);
+    margin-top: 100px;
+}
+/* .images{
+    position: relative;
+} */
+
+/* .images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+    align-items: baseline;
+    position: relative;
+} */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bookmarks{
+    width: 150px;
+    background-color: rgb(169, 169, 169);
+    color: white;
+    border: 0px;
+    margin-right: 140px;
+}
+.bookmarks:hover{
+  
+    background-color: rgb(119, 119, 119);
+    color: rgb(58, 58, 58);
+    border: 0px;
+   
+}
+.bookmarks:active{
+  
+    background-color: rgb(147, 147, 147);
+    color: rgb(0, 0, 0);
+    border: 0px;
+   
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 40px 0px;
+}
+.input_search{
+    height: 30px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: white;
+}
+.input_search_button{
+    width: 100px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+.input_search_button:hover{
+  
+    background-color: rgb(134, 134, 134);
+    color: rgb(0, 0, 0);
+    border: 0px;
+}
+.input_search_button:active{
+  
+    background-color: rgb(222, 222, 222);
+    color: rgb(0, 0, 0);
+    border: 0px;
+}
+.bookmark_button{
+    position: relative;
+}
